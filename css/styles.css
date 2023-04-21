@@ -1,0 +1,70 @@
+/* Set default styles for all elements */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Define styles for the sidebar */
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 100%;
+	background-color: #f0f0f0;
+	border-right: 1px solid black;
+}
+
+.sidebar a {
+	display: block;
+	padding: 10px;
+}
+
+/* Define styles for the sidebar icons */
+.sidebar a img {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }  
+
+/* Define styles for the sidebar text */
+.sidebar-text {
+    text-align: center;
+    font-size: 15px;
+	font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }  
+
+/* Define styles for the main content area */
+.main-content {
+	margin-left: 80px;
+	padding: 20px;
+}
+
+.page-title {
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Define styles for the notifications icon */
+.notifications {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+.notifications img {
+	width: 40px;
+	height: 40px;
+}
+
+.notifications p {
+	margin: 0;
+	padding: 5px;
+	font-size: 13px;
+}
