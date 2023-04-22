@@ -16,6 +16,6 @@ results.html
 
 ## Billy
 
-feedback.html
+~~feedback.html~~
 <br>
 index.html
