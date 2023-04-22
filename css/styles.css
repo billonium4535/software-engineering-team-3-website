@@ -68,3 +68,116 @@ body {
 	padding: 5px;
 	font-size: 13px;
 }
+
+.textbox-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.top-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.top-coloums {
+	display: flex;
+	flex-direction: column;
+	margin-left: calc(50% - 100px);
+}
+
+.dropdown-box {
+	width: 150px;
+	align-self: flex-start;
+	margin-left: calc(50% - 100px);
+	margin-bottom: 20px;
+}
+  
+.dropdown-box select {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+  
+/* Position the dropdown arrow to the right */
+.dropdown-box select::-ms-expand {
+	display: none;
+}
+
+.dropdown-box select::after {
+	content: "\25BC";
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.star-rating-box {
+	width: 150px;
+	align-self: flex-start;
+	margin-left: calc(50% - 100px);
+}
+
+.star-rating {
+	width: 10px;
+}
+
+.star-rating-checked {
+	filter: invert(58%) sepia(97%) saturate(1138%) hue-rotate(0deg) brightness(103%) contrast(107%);
+}
+
+.small-textbox {
+	width: calc(40% - 2px);
+	height: fit-content;
+	border: 1px solid black;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+	align-self: flex-start;
+	margin-left: 0;
+}
+
+.large-textbox {
+	width: calc(100% - 50px);
+	min-height: 150px;
+	border: 1px solid black;
+	padding: 5px;
+	box-sizing: border-box;
+	align-self: flex-start;
+	resize: vertical;
+	overflow: auto;
+	vertical-align: top;
+	text-align: left;
+	display: flex;
+	align-items: flex-start;
+}
+
+.button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+  
+.send-button {
+	box-sizing: border-box;
+	align-self: flex-start;
+	width: 80px;
+	/* Centres the button to the box */
+	margin: 0 calc(((100% - 50px) / 2) - 40px);
+
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+}
