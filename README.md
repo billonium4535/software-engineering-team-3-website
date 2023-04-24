@@ -12,7 +12,7 @@ n/a
 
 ## Billy
 
-absence.html
+~~absence.html~~
 <br>
 ~~attendance.html~~
 <br>
