@@ -188,11 +188,18 @@ body {
 	align-items: flex-start;
 }
 
+
+.profile-column {
+	display: flex;
+	flex-direction: column;
+}
+
 .profile-name {
 	text-align: center;
 	font-size: 20px;
 	align-self: flex-start;
-	margin: 0 calc(30% - 220px);
+	margin: 0;
+	margin-left: 33px;
 	margin-bottom: 10px;
 }
 
@@ -274,4 +281,50 @@ tr:nth-child(even) {
 	padding: 5px;
 	width: 200px;
 	height: 30px;
+}
+
+.absence-text {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	margin: 0 100px;
+}
+
+.absence-dropdown {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	margin: 0 10px;
+}
+
+.absence-textbox {
+	width: 250px;
+	min-height: 100px;
+	border: 1px solid black;
+	padding: 5px;
+	box-sizing: border-box;
+	align-self: flex-start;
+	resize: vertical;
+	overflow: auto;
+	vertical-align: top;
+	text-align: left;
+	display: flex;
+	align-items: flex-start;
+}
+
+.absence-warnings {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: row;
+	margin: 0 calc(50% - 25px);
+}
+
+.absence-warning-table {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	justify-content: center;
 }
