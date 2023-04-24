@@ -181,3 +181,47 @@ body {
 	font-size: 16px;
 	cursor: pointer;
 }
+/* Define styles for login*/
+.login{
+	position: fixed;
+	top: 15%;
+	left: 42.5%;
+	width: 350px;
+	height: 500px;
+	border-radius: 10%;
+	background-color: #f0f0f0;
+}
+.txt1{
+	top: 30%;
+	left: 45%;
+	position: fixed;
+	width: 200px;
+	height: 1px;
+}
+.txt2{
+	top: 35%;
+	left: 45%;
+	position: fixed;
+	width: 200px;
+	height: 1px;
+}
+.txt3{
+	top: 40%;
+	left: 45%;
+	position: fixed;
+	width: 200px;
+	height: 1px;
+}
+.txt4{
+	top: 45%;
+	left: 45%;
+	position: fixed;
+	width: 200px;
+	height: 1px;
+}
+#txtbox{
+	border-radius: 10px;
+	padding: 5px;
+	width: 200px;
+	height: 30px;
+}
