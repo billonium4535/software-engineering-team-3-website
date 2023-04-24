@@ -368,3 +368,38 @@ tr:nth-child(even) {
 	max-width: 100%;
 	height: auto;
 }
+
+.index-column {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: row;
+	margin-left: calc(50% - (300px + (25px / 2)));
+}
+
+.index-profile-box {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: calc(50% - (300px / 2));
+	margin-top: 40px;
+	width: 300px;
+	height: 100px;
+	border-radius: 25px;
+	background-color: #f0f0f0;
+}
+
+.index-other-box {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-right: 25px;
+	width: 300px;
+	height: 100px;
+	border-radius: 25px;
+	background-color: #f0f0f0;
+}
