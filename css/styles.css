@@ -328,3 +328,42 @@ tr:nth-child(even) {
 	text-align: center;
 	justify-content: center;
 }
+
+.result-main {
+	display: flex;
+	align-self: flex-start;
+	flex-direction: row;
+	margin-left: 100px;
+}
+
+.result-box {
+	border: 1px solid black;
+	height: 400px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.result-small-box {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.result-big-box {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	line-height: 0px;
+}
+
+.result-small-box img {
+	max-width: 100%;
+	height: auto;
+}
