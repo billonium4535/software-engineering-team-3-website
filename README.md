@@ -18,6 +18,6 @@ n/a
 <br>
 ~~feedback.html~~
 <br>
-index.html
+~~index.html~~
 <br>
 ~~results.html~~
