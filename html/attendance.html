@@ -8,7 +8,7 @@
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-	<script type="text/javascript" src="../scripts/engagementGraph.js" defer></script>
+	<script type="text/javascript" src="../scripts/engagementChart,js" defer></script>
 </head>
 <body>
 	<!-- Create a div for the sidebar content -->
@@ -48,7 +48,6 @@
 			<p>Report incorrect absence</p>
 		</div>
 		<!-- Creates a canvas element for the chart to be drawn on-->
-		<canvas id="engagementChart" style="width:300px; height:300px;"></canvas>
 		<table>
 			<tr>
 				<td>Previous Lessons:</td>
@@ -81,6 +80,9 @@
 				<td>Yes</td>
 			</tr>
 		</table>
+		<div class="graph">
+			<canvas id="engagementChart"></canvas>
+		</div>
 	</div>
 
 	<!-- Creates a div for the notifications area -->
