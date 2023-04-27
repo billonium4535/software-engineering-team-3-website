@@ -101,6 +101,14 @@ body {
 	box-sizing: border-box;
 	cursor: pointer;
 }
+
+.dropdown-box input {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	cursor: pointer;
+}
   
 /* Position the dropdown arrow to the right */
 .dropdown-box select::-ms-expand {
