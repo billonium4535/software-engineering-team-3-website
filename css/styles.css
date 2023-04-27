@@ -277,7 +277,7 @@ tr:nth-child(even) {
 	justify-content: center;
 	align-items: center;
 	margin: 0 calc(50% - (350px / 2));
-	margin-top: calc(50% - (500px / 2));
+	margin-top: calc(40% - 500px);
 	width: 350px;
 	height: 500px;
 	border-radius: 10%;
